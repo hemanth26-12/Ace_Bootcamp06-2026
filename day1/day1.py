@@ -1,1 +1,0 @@
-print("Welcome to day1 BootCamp...")
