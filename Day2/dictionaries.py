@@ -12,3 +12,7 @@ print(c.keys())
 print(c.items())
 c.fromkeys(["name", "age", "city"], "unknown")
 print(c)
+
+for method in dir(dict):
+    if not method.startswith("__"):
+        print(method)

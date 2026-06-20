@@ -11,3 +11,13 @@ set.discard("superman")
 set.add("supergirl")
 
 print(set)
+
+
+print(set.isdisjoint(set2))
+print(set.issubset(set2))
+print(set.issuperset(set2))
+
+
+for method in dir(set):
+    if not method.startswith("__"):
+        print(method)
