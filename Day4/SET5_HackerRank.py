@@ -1,0 +1,6 @@
+N = int(input())
+English_paper = set(map(int,input().split()))
+M = int(input())
+French_paper = set(map(int,input().split()))
+v = English_paper.union(French_paper)
+print(len(v))

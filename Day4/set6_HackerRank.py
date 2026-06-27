@@ -1,0 +1,6 @@
+N = int(input())
+English_paper = set(map(int,input().split()))
+M = int(input())
+French_paper = set(map(int,input().split()))
+c = English_paper.intersection(French_paper)
+print(len(c))
